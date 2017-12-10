@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_Persistence_Example' do
+  pod 'HR_Persistence', :path => '../'
+
+  target 'HR_Persistence_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
