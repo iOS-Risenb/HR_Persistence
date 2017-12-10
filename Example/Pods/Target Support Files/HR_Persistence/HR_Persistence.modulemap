@@ -1,0 +1,6 @@
+framework module HR_Persistence {
+  umbrella header "HR_Persistence-umbrella.h"
+
+  export *
+  module * { export * }
+}
